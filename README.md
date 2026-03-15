@@ -1,3 +1,17 @@
+Project Structure
+
+├── Breast Cancer METABRIC.csv   # Raw oncology dataset
+├── oncology_sdtm_adam_tlf_analysis.sas   # SAS program
+├── README.md   # Project documentation
+├── LICENSE
+└── .gitignore
+
+
+
+
+
+
+
 # SAS-Oncology-SDTM-ADaM-TLFs
 Focus:  Oncology-specific SDTM datasets  ADaM for efficacy &amp; safety  Tables, Listings, Figures for oncology trials  Include mock datasets for demonstration
 # SAS Oncology CDISC SDTM ADaM TLF Project
