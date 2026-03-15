@@ -1,3 +1,19 @@
+/*-----------------------------------------------------------*
+Project: Oncology Clinical Trial Analysis
+Standard: CDISC SDTM / ADaM
+Programming: SAS
+Dataset: Breast Cancer METABRIC
+Author: Sumit Choudhary
+
+Description:
+This project demonstrates clinical trial data preparation,
+SDTM dataset creation, ADaM dataset derivation, and generation
+of Tables, Listings, and Figures (TLFs) for oncology analysis.
+*-----------------------------------------------------------*/
+
+
+
+
 libname Cancer "/home/u64214007" ;
 
 /* Import Raw Data */
