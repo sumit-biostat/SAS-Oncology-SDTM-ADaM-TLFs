@@ -1,16 +1,3 @@
-Project Structure
-
-├── Breast Cancer METABRIC.csv   # Raw oncology dataset
-├── oncology_sdtm_adam_tlf_analysis.sas   # SAS program
-├── README.md   # Project documentation
-├── LICENSE
-└── .gitignore
-
-
-
-
-
-
 
 # SAS-Oncology-SDTM-ADaM-TLFs
 Focus:  Oncology-specific SDTM datasets  ADaM for efficacy &amp; safety  Tables, Listings, Figures for oncology trials  Include mock datasets for demonstration
@@ -21,13 +8,15 @@ Focus:  Oncology-specific SDTM datasets  ADaM for efficacy &amp; safety  Tables,
 This project demonstrates an end-to-end clinical trial data analysis workflow using SAS.
 The goal is to simulate an oncology clinical trial programming workflow following CDISC standards.
 
-The project includes:
+Skills Demonstrated
 
-* Raw clinical dataset import
-* SDTM dataset creation (Demographics)
-* ADaM dataset derivation
-* Tables, Listings, and Figures (TLFs)
-* Survival analysis using Kaplan-Meier curves
+• SAS Programming  
+• Clinical Trial Data Analysis  
+• CDISC SDTM Dataset Creation  
+• ADaM Dataset Derivation  
+• Tables, Listings and Figures (TLF) Generation  
+• Survival Analysis using Kaplan-Meier Method
+
 
 ## Dataset
 
