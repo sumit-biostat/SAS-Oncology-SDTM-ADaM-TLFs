@@ -1,53 +1,42 @@
-
 # SAS-Oncology-SDTM-ADaM-TLFs
-Focus:  Oncology-specific SDTM datasets  ADaM for efficacy &amp; safety  Tables, Listings, Figures for oncology trials  Include mock datasets for demonstration
-# SAS Oncology CDISC SDTM ADaM TLF Project
+
+**Focus:** Oncology-specific clinical trial data analysis, Tables, Listings, Figures (TLFs), and survival analysis using SAS. Includes a simulated dataset for demonstration.
 
 ## Overview
+This project demonstrates an **end-to-end clinical trial data analysis workflow** using SAS.  
+The goal is to simulate oncology clinical trial programming and reporting, including demographic summaries, tumor stage analysis, and survival analysis.
 
-This project demonstrates an end-to-end clinical trial data analysis workflow using SAS.
-The goal is to simulate an oncology clinical trial programming workflow following CDISC standards.
-
-Skills Demonstrated
-
-• SAS Programming  
-• Clinical Trial Data Analysis  
-• CDISC SDTM Dataset Creation  
-• ADaM Dataset Derivation  
-• Tables, Listings and Figures (TLF) Generation  
-• Survival Analysis using Kaplan-Meier Method
-
+## Skills Demonstrated
+- SAS Programming  
+- Clinical Trial Data Analysis  
+- Tables, Listings, and Figures (TLF) Generation  
+- Survival Analysis using Kaplan-Meier Method  
+- Data Visualization and Reporting  
 
 ## Dataset
-
-Breast Cancer METABRIC dataset used for simulation of oncology clinical trial analysis.
+Breast Cancer METABRIC dataset was used for simulating oncology clinical trial analysis.
 
 ## Workflow
-
-1. Import raw clinical dataset
-2. Create SDTM DM dataset
-3. Derive ADaM ADSL dataset
-4. Generate demographic summary tables
-5. Perform tumor stage and survival analysis
-6. Create visualizations and graphs
-7. Generate final TLF report
+1. Import raw clinical dataset  
+2. Create demographic summaries  
+3. Perform tumor stage and survival analysis  
+4. Generate visualizations and graphs  
+5. Create final TLF reports  
 
 ## Tools Used
-
-* SAS Programming
-* CDISC SDTM
-* CDISC ADaM
-* Clinical Trial Data Analysis
+- SAS Programming  
+- Clinical Trial Data Analysis  
 
 ## Key Outputs
+- Demographic Summary Tables  
+- Tumor Stage Distribution  
+- Kaplan-Meier Survival Curve  
+- Oncology Analysis Report  
 
-* Demographic Summary Tables
-* Tumor Stage Distribution
-* Kaplan-Meier Survival Curve
-* Oncology Analysis Report
+## Project Link
+[GitHub Repository](https://github.com/sumit-biostat/SAS-Oncology-SDTM-ADaM-TLFs)
 
 ## Author
-
-Sumit Choudhary
-M.Sc. Statistics
+**Sumit Choudhary**  
+M.Sc. Statistics  
 Clinical SAS Programming Enthusiast
