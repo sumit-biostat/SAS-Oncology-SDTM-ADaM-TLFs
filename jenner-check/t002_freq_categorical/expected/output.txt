@@ -1,0 +1,43 @@
+                                                  Gender Distribution                                                   
+
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+Sex       Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Female           40    100.00           40       100.00
+                                                Tumor Stage Distribution                                                
+
+                                                   The FREQ Procedure
+
+                                         Cumulative    Cumulative
+Tumor Stage    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------
+1                      8     20.00            8        20.00
+2                     27     67.50           35        87.50
+3                      3      7.50           38        95.00
+4                      2      5.00           40       100.00
+                                             Chemotherapy Treatment Summary                                             
+
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+Chemotherapy    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+No                     24     60.00           24        60.00
+Yes                    16     40.00           40       100.00
+                                             Biomarker Status Distribution                                              
+
+                                                   The FREQ Procedure
+
+                                       Cumulative    Cumulative
+ER Status    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------
+Negative             6     15.00            6        15.00
+Positive            34     85.00           40       100.00
+
+                                         Cumulative    Cumulative
+HER2 Status    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------
+Negative              38     95.00           38        95.00
+Positive               2      5.00           40       100.00

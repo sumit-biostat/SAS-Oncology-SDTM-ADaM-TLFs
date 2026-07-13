@@ -1,0 +1,35 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: Option VALIDVARNAME changed to ANY.
+NOTE: Option VALIDVARNAME changed to ANY.
+NOTE: DATA raw_metabric
+
+NOTE: Processing inline DATALINES (40 lines)
+
+NOTE: Read 40 rows from DATALINES.
+NOTE: Wrote raw_metabric (40 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA adam_adsl
+
+
+NOTE: Read 40 rows from raw_metabric.
+NOTE: Wrote adam_adsl (40 rows, 12 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA adam_adtte
+
+
+NOTE: Read 40 rows from adam_adsl.
+NOTE: Wrote adam_adtte (40 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC LIFETEST data=adam_adtte
+
+NOTE: Using Python lifelines version 0.30.3
+NOTE: ODS plot written: lifetest_survival.spec.json
+NOTE: ODS plot written: survival_basic.spec.json
+NOTE: PROC LIFETEST completed.

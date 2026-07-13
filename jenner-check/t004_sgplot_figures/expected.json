@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-13T08:19:41.213964+00:00",
+  "_captured_run_id": "r_a224ff1e6bbd4178a0aad4e8fa60551b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote adam_adsl (40 rows, 12 columns).",
+    "NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg",
+    "NOTE: PROC SGPLOT output written to: ./ods_output/sgplot3.svg"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
