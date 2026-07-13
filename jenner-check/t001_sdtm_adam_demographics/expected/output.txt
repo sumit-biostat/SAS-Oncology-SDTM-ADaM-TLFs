@@ -1,0 +1,65 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: adam_adsl
+Observations:  40
+Variables:     16
+
+Variables (in alphabetical order):
+
+  #  Variable                   Type    Len  Format  Label
+---  -------------------------  ----  -----  ------  -----
+  1  AGE                         Num      8          
+  2  Age at Diagnosis            Num      8          
+  3  Chemotherapy               Char      4          
+  4  DOMAIN                     Char    200          
+  5  ER Status                  Char      8          
+  6  HER2 Status                Char      8          
+  7  Overall Survival (Months)   Num      8          
+  8  Overall Survival Status    Char     12          
+  9  Patient ID                 Char     12          
+ 10  SAFFL                      Char    200          
+ 11  Sex                        Char      8          
+ 12  STUDYID                    Char    200          
+ 13  TRT01P                     Char    200          
+ 14  Tumor Size                  Num      8          
+ 15  Tumor Stage                 Num      8          
+ 16  USUBJID                    Char    200          
+
+-------------------------------------------------------------------------------
+
+
+  Obs  Patient ID     Sex  ER Status  HER2 Status  Chemotherapy  Overall Survival Status  Age at Diagnosis  Tumor Stage  Tumor Size  Overall Survival (Months)  STUDYID  DOMAIN         USUBJID    AGE  TRT01P  SAFFL
+-----  ----------  ------  ---------  -----------  ------------  -----------------------  ----------------  -----------  ----------  -------------------------  -------  ------  --------------  -----  ------  -----
+    1  MB-0000     Female  Positive   Negative     No            Living                              75.65            2          22                      140.5  ONC001   DM      ONC001-MB-0000  75.65  CHEMO   Y
+    2  MB-0005     Female  Positive   Negative     Yes           Deceased                            48.87            2          15                      163.7  ONC001   DM      ONC001-MB-0005  48.87  CHEMO   Y
+    3  MB-0002     Female  Positive   Negative     No            Living                              43.19            1          10                84.63333333  ONC001   DM      ONC001-MB-0002  43.19  CHEMO   Y
+    4  MB-0008     Female  Positive   Negative     Yes           Deceased                            76.97            2          40                41.36666667  ONC001   DM      ONC001-MB-0008  76.97  CHEMO   Y
+    5  MB-0006     Female  Positive   Negative     Yes           Living                              47.68            2          25                164.9333333  ONC001   DM      ONC001-MB-0006  47.68  CHEMO   Y
+    6  MB-0010     Female  Positive   Negative     No            Deceased                            78.77            4          31                        7.8  ONC001   DM      ONC001-MB-0010  78.77  CHEMO   Y
+    7  MB-0014     Female  Positive   Negative     Yes           Living                              56.45            2          10                164.3333333  ONC001   DM      ONC001-MB-0014  56.45  CHEMO   Y
+    8  MB-0020     Female  Negative   Negative     Yes           Deceased                               70            3          65                       22.4  ONC001   DM      ONC001-MB-0020     70  CHEMO   Y
+    9  MB-0039     Female  Positive   Negative     No            Living                              70.91            1          21                163.5333333  ONC001   DM      ONC001-MB-0039  70.91  CHEMO   Y
+   10  MB-0022     Female  Positive   Negative     No            Deceased                            89.08            2          29                99.53333333  ONC001   DM      ONC001-MB-0022  89.08  CHEMO   Y
+
+... 30 more observations (showing 10 of 40)
+
+                                               Demographic Summary - Age                                                
+
+                                                  The MEANS Procedure
+
+ Variable                N           Mean        Std Dev        Minimum        Maximum
+ -------------------------------------------------------------------------------------
+ Age at Diagnosis       40     63.7250000     15.2740823     39.8400000     89.0800000
+ -------------------------------------------------------------------------------------
+
+                                                   Tumor Size Summary                                                   
+
+                                                  The MEANS Procedure
+
+ Variable          N           Mean        Std Dev        Minimum         Maximum
+ --------------------------------------------------------------------------------
+ Tumor Size       40     30.0500000     23.1361079     10.0000000     150.0000000
+ --------------------------------------------------------------------------------
+

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_km_survival",
+  "source_file": "oncology_sdtm_adam_tlf_analysis.sas",
+  "source_blob_sha": "0d71384b8cee264806f8a1a0fd4ae362ef809330",
+  "source_commit": "13f425748f5ab73a0eed8ed9f5070fe6906be20f",
+  "notes": "Author's ADTTE derivation (CNSR from Overall Survival Status) then PROC LIFETEST Kaplan-Meier survival on the inlined METABRIC sample."
+}
